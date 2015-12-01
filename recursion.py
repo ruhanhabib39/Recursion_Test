@@ -96,6 +96,13 @@ def rec_count2(val):
         if val >= 0:  # or we can use any expressions regarding the values
             print 'return value from cloned method: %d  is  %d' % (val, val)
         return 1
+        '''
+        this block acts like an individual function being read from bottom to top
+        rec_count2(val+1)
+        if val >= 0:  
+            print 'return value from cloned method: %d  is  %d' % (val, val)
+        return 1
+        '''
 
 
 # rec_count2(0)
